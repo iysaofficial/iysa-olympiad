@@ -5,12 +5,12 @@ const AfterEventComp = () =>{
             <div className="after-event-container">
                 <div className="after-event-heading">
                     <br />
-                    <h1 className="section-header">After Event</h1>
+                    <h1 className="section-header">After Event IYMO NYMO</h1>
                 </div>
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5 after-event-video text-center">
-                        <iframe className="mt-5"  width="100%" height="415" src="https://www.youtube.com/embed/NbIE8wAcq8k?si=WuuGaBvvlCN4JUZq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe className="mt-5"  width="100%" height="415" src="https://www.youtube.com/embed/JYJtuZEc-mA?si=daAXf3OBorL8ggtK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     <div className="col-md-5 text-justify mt-auto mb-auto">
                         <p>We are proud to present a video summary of this unforgettable event, as a testament to the passion, dedication, and brilliance that each participant has shown. In our after event video, you will be presented with the memorable moments we had together.</p>
