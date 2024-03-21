@@ -87,7 +87,7 @@ const ContactComp = () =>{
                         <span className="circle one"></span>
                         <span className="circle two"></span>
                     
-                        <form action="https://formspree.io/f/xeqyenyl" autoComplete='off' method='POST'>
+                        <form action="https://formspree.io/f/xzbnakvr" autoComplete='off' method='POST'>
                             <h3 className="title">Contact us</h3>
                             <div className="input-container">
                                 <input type="text" name="name" className="input"/>
