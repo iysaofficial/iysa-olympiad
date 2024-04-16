@@ -1,5 +1,6 @@
 import '../../assets/css/home/Home.css'
 import AboutComp from '../../components/about/AboutComp'
+import AboutMainComp from '../../components/home/AboutMainComp'
 import AfterEventComp from '../../components/home/AfterEventComp'
 import AssesmentCriteriaComp from '../../components/home/AssessmentCriteriaComp'
 import CategoryComp from '../../components/home/CategoryComp'
@@ -13,12 +14,11 @@ const HomePage = () => {
     return(
         <>
         <HeroComp></HeroComp>
+        <AboutMainComp></AboutMainComp>
         <CriteriaComp></CriteriaComp>
         <AssesmentCriteriaComp></AssesmentCriteriaComp>
-
         <CategoryComp></CategoryComp>
         <AfterEventComp></AfterEventComp>
-        {/* <NewsComp></NewsComp> */}
         <LogoComp></LogoComp>
         </>
     )

@@ -246,6 +246,103 @@ span{
 
 /* hero end */
 
+/* about section start */
+
+.about-section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .about-content img{  
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.about-text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.about-content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: #02adee;
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.about-section .about-text a{
+    background-color: #02adee;
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.about-section .about-text a:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #02adee;
+    color: #02adee;
+    transition: .4s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+    .about-section{
+        width: 100%;
+        /* min-width: auto; */
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-section .about-content img{
+        margin-bottom: 35px;
+    }
+    .about-text h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+}
+
+/* about section end */
+
 /* criteria start */
 
 /* .criteria-section{
@@ -571,7 +668,7 @@ span{
     position: relative;
     top: 50px;
     z-index: 1000;
-    max-height: 120px;
+    max-height: 80px;
 }
 
 .category-container .category-card .category-textBx::before{
@@ -591,14 +688,17 @@ span{
 /* after event start */
 
 .after-event-section{
-    min-height: 60vh;
-    background: #f2f2f2;
+    min-height: 90vh;
+    background: #191f36;
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
 }
 
 .after-event-section p{
     text-align: justify;
 }
-
 
 /* after event end */
 

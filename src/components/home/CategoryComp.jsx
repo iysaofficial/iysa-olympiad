@@ -3,7 +3,7 @@ const CategoryComp = () => {
         <> 
         <section className="category-main-section text-white" id="category-main-section">       
         <br />
-        <h1 className="section-header text-black">Category Section</h1>
+        <h1 className="section-header text-black">IYSA Olympiad Event</h1>
         <br />
         <br />
         <br />
@@ -93,6 +93,35 @@ const CategoryComp = () => {
                     </div>
                     <div className="category-textBx">
                         <h2>NYCO</h2>
+                    </div>
+                </div>
+
+                <div className="category-card" style={{ '--clr': '#02adee' }}>
+                    <div className="category-content">
+                        <h2>OS2MN</h2>
+                        <p>"Science olympiad for education levels MI, MTs MA and there are 6 categories biology, geography, economics, chemistry, mathematics, physics"</p>
+                        <a href="https://os2mn.or.id" target="_blank">Go to Website</a>
+                    </div>
+                    <div className="category-imgBx">
+                        <img src="./assets/images/logo/OSSMN.png" alt="" />
+                    </div>
+                    <div className="category-textBx">
+                        <h2>OS2MN</h2>
+                    </div>
+                </div>
+
+                
+                <div className="category-card" style={{ '--clr': '#02adee' }}>
+                    <div className="category-content">
+                        <h2>WSO</h2>
+                        <p>"Coming Soon"</p>
+                        <a href="#">Coming Soon</a>
+                    </div>
+                    <div className="category-imgBx">
+                        <img src="./assets/images/logo/WSO.png" alt="" />
+                    </div>
+                    <div className="category-textBx">
+                        <h2>WSO</h2>
                     </div>
                 </div>
                 
