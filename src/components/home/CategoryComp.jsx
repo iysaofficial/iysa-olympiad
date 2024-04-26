@@ -98,6 +98,34 @@ const CategoryComp = () => {
 
                 <div className="category-card" style={{ '--clr': '#02adee' }}>
                     <div className="category-content">
+                        <h2>IYPO</h2>
+                        <p>"Competition held to test students abilities and knowledge in the field of Physics"</p>
+                        <a href="https://iypo-iysa.or.id" target="_blank">Go to Website</a>
+                    </div>
+                    <div className="category-imgBx">
+                        <img src="./assets/images/logo/IYPO.png" alt="" />
+                    </div>
+                    <div className="category-textBx">
+                        <h2>IYPO</h2>
+                    </div>
+                </div>
+
+                <div className="category-card" style={{ '--clr': '#02adee' }}>
+                    <div className="category-content">
+                        <h2>NYPO</h2>
+                        <p>"Competition held to test students abilities and knowledge in the field of Physics"</p>
+                        <a href="https://nypo-iysa.or.id" target="_blank">Go to Website</a>
+                    </div>
+                    <div className="category-imgBx">
+                        <img src="./assets/images/logo/NYPO.png" alt="" />
+                    </div>
+                    <div className="category-textBx">
+                        <h2>NYPO</h2>
+                    </div>
+                </div>
+
+                <div className="category-card" style={{ '--clr': '#02adee' }}>
+                    <div className="category-content">
                         <h2>OS2MN</h2>
                         <p>"Science olympiad for education levels MI, MTs MA and there are 6 categories biology, geography, economics, chemistry, mathematics, physics"</p>
                         <a href="https://os2mn.or.id" target="_blank">Go to Website</a>
