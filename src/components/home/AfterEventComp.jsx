@@ -5,12 +5,12 @@ const AfterEventComp = () =>{
             <div className="after-event-container">
                 <div className="after-event-heading">
                     <br />
-                    <h1 className="section-header text-white">After Event IYMO NYMO</h1>
+                    <h1 className="section-header text-white">After Event IYBO NYBO 2024</h1>
                 </div>
                 <div className="row">
                 <div className="col-md-1"></div>
                     <div className="col-md-5 after-event-video text-center">
-                        <iframe className="mt-5"  width="100%" height="415" src="https://www.youtube.com/embed/JYJtuZEc-mA?si=daAXf3OBorL8ggtK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe className="mt-5"  width="100%" height="415" src="https://www.youtube.com/embed/FhIGkP87BZ4?si=mLY-kev9KOW-9iaE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
     
                     <div className="col-md-5 text-justify mt-auto mb-auto p-4">
