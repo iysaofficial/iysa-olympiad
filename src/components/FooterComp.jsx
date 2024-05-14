@@ -64,7 +64,7 @@ const FooterComp = () => {
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/AboutPage">About</a></li>
-                                <li><a href="/#category-main-section">Category</a></li>
+                                <li><a href="/#category-main-section">Olympiad Event</a></li>
                                 {/* <li><a href="#">FAQ</a></li> */}
                                 <li><a href="/ContactPage">Contact</a></li>
                             </ul>
