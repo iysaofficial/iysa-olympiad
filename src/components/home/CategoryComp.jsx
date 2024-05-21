@@ -170,8 +170,8 @@ const CategoryComp = () => {
                 <div className="category-card" style={{ '--clr': '#02adee' }}>
                     <div className="category-content">
                         <h2>WSO</h2>
-                        <p>"Coming Soon"</p>
-                        <a href="#">Coming Soon</a>
+                        <p>"Olympiad for all education levels and there are 4 categories biology, chemistry, mathematics, physics"</p>
+                        <a href="https://wso.or.id">Go to Website</a>
                     </div>
                     <div className="category-imgBx">
                         <img src="./assets/images/logo/WSO.png" alt="" />
