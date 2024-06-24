@@ -1,11 +1,12 @@
+import '../../assets/css/Header.css'
+import HeaderComp from '../../components/HeaderComp'
 import '../../assets/css/about/About.css'
 import AboutComp from '../../components/about/AboutComp'
-import AboutHeaderComp from '../../components/about/AboutHeaderComp'
 
 const AboutPage = () => {
     return(
         <>
-        <AboutHeaderComp></AboutHeaderComp>
+        <HeaderComp header={"About Page"}></HeaderComp>
         <AboutComp></AboutComp>
         </>
     )

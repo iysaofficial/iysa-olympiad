@@ -1,12 +1,13 @@
+import '../../assets/css/Header.css'
+import HeaderComp from '../../components/HeaderComp'
 import '../../assets/css/contact/Contact.css'
 import ContactComp from '../../components/contact/ContactComp'
-import ContactHeaderComp from '../../components/contact/ContactHeaderComp'
 
 
 const ContactPage = () => {
     return(
         <>
-        <ContactHeaderComp></ContactHeaderComp>
+        <HeaderComp header={"Contact Page"}></HeaderComp>
         <ContactComp></ContactComp>
         </>
     )
