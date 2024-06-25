@@ -3,7 +3,9 @@ const CategoryComp = () => {
         <> 
         <section className="category-main-section text-white" id="category-main-section">       
         <br />
-        <h1 className="section-header text-black">IYSA Olympiad Event</h1>
+        <br />
+        <br />
+        <h1 className="section-header">IYSA Olympiad Event</h1>
         <br />
         <br />
         <br />

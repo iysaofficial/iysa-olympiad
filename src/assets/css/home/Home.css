@@ -13,7 +13,7 @@
 
 body{
 
-    background: #191f36;
+    /* background: #191f36; */
 }
 
 .section-header{
@@ -345,9 +345,9 @@ span{
 
 /* criteria start */
 
-/* .criteria-section{
-    background: linear-gradient(90deg, red, blue);
-} */
+.criteria-section{
+    background: #191f36;;
+}
 
 .timeline{
     position: relative;
@@ -515,7 +515,7 @@ span{
 /* category start */
 
 .category-main-section{
-    background: #f2f2f2;
+    background: #191f36;;
 }
 
 .category-section{
@@ -523,7 +523,7 @@ span{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f2f2f2;
+    background: #191f36;;
 }
 
 .category-container{
@@ -691,6 +691,7 @@ span{
     min-height: 100vh;
     /* background: #; */
     padding: 5rem 9% 5rem;
+    background: #f2f2f2;
 }
 
 .after-event-row{
@@ -717,7 +718,7 @@ span{
     position: relative;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    color: #fff;
+    color: #000;
 }
 
 .after-event-section .after-event-heading h1:after{
@@ -736,7 +737,7 @@ span{
     text-align: justify;
     font-size: 1rem;
     align-items: center;
-    color: #fff;
+    color: #000;
 }
 /* after event end */
 
@@ -744,9 +745,17 @@ span{
 
 :root {
     --container-color: #1a1e21;
-    --second-color: #fd8f44;
+    --second-color: deepskyblue;
     --text-color: #172317;
     --bg-color: #fff;
+}
+
+.news-main-section{
+    background: #191f36;
+}
+
+.news-main-section h1{
+    color: #fff;
 }
 
 .news-section a{
@@ -779,6 +788,10 @@ span{
     box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;
+}
+
+.post-box a{
+    color: var(--text-colorx);
 }
 
 .post-img{

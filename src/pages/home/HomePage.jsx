@@ -9,15 +9,18 @@ import LogoComp from '../../components/home/LogoComp'
 import NewsComp from '../../components/home/NewsComp'
 
 
+
+
 const HomePage = () => {
     return(
         <>
         <HeroComp></HeroComp>
         <AboutMainComp></AboutMainComp>
-        <CriteriaComp></CriteriaComp>
-        <AssesmentCriteriaComp></AssesmentCriteriaComp>
+        {/* <CriteriaComp></CriteriaComp>
+        <AssesmentCriteriaComp></AssesmentCriteriaComp> */}
         <CategoryComp></CategoryComp>
         <AfterEventComp></AfterEventComp>
+        <NewsComp></NewsComp>
         <LogoComp></LogoComp>
         </>
     )
