@@ -21,7 +21,7 @@ const FooterComp = () => {
                             <i className="fas fa-phone"></i>
                             <div className="cta-text">
                                 <h4>Phone</h4>
-                                <a href='https://wa.me/+6281770914129' target='_blank'>+62-817-7091-4129</a>
+                                <a href='https://wa.me/+6283870026877' target='_blank'>+6283870026877</a>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const FooterComp = () => {
                             <i className="far fa-envelope-open"></i>
                             <div className="cta-text">
                                 <h4>Email</h4>
-                                <a href='mailto:youngscientist.iysa@gmail.com' target='_blank'>youngscientist.iysa@gmail.com</a>
+                                <a href='mailto:iysa.olympiad@gmail.com' target='_blank'>iysa.olympiad@gmail.com</a>
                             </div>
                         </div>
                     </div>
